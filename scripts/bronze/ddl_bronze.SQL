@@ -51,8 +51,8 @@ CREATE TABLE bronze.crm_sales_details(
 );
 GO
 
-IF OBJECT_ID('bronze.crm_sales_details','U') IS NOT NULL
-	DROP TABLE bronze.crm_sales_details;
+IF OBJECT_ID('bronze.erp_loc_a101','U') IS NOT NULL
+	DROP TABLE bronze.erp_loc_a101;
 GO
 CREATE TABLE bronze.erp_loc_a101(
 	cid NVARCHAR(50),
@@ -79,3 +79,4 @@ CREATE TABLE bronze.erp_px_cat_g1v2(
 	maintenance NVARCHAR(50)
 );
 GO
+
